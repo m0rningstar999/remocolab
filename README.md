@@ -46,21 +46,21 @@ If you use Argo Tunnel:
    - add `tunnel = "ngrok"` if you use ngrok.
 - SSH only:
 ```python3
-!pip3 install git+https://github.com/sieyron/remocolab.git
+!pip3 install git+https://github.com/m0rningstar999/remocolab.git
 import remocolab
 remocolab.setupSSHD()
 ```
 
 - SSH and TurboVNC:
 ```python3
-!pip3 install git+https://github.com/sieyron/remocolab.git
+!pip3 install git+https://github.com/m0rningstar999/remocolab.git
 import remocolab
 remocolab.setupVNC()
 ```
 
 - SSH and TurboVNC with specific region:
 ```python3
-!pip3 install git+https://github.com/sieyron/remocolab.git
+!pip3 install git+https://github.com/m0rningstar999/remocolab.git
 import remocolab
 remocolab.setupVNC(ngrok_region = "ap")
 ```
@@ -159,14 +159,14 @@ And replace user name colab in ssh command to root.
 
 - SSH only:
 ```python3
-!pip3 install git+https://github.com/sieyron/remocolab.git@kaggle
+!pip3 install git+https://github.com/m0rningstar999/remocolab.git@kaggle
 import remocolab
 remocolab.setupSSHD()
 ```
 
 - SSH and TurboVNC:
 ```python3
-!pip3 install git+https://github.com/sieyron/remocolab.git@kaggle
+!pip3 install git+https://github.com/m0rningstar999/remocolab.git@kaggle
 import remocolab
 remocolab.setupVNC()
 ```
